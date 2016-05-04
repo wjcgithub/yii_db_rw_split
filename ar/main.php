@@ -43,7 +43,7 @@ $config = array(
             'username' => 'demo',
             'password' => 'demo',
             'charset' => 'utf8',
-            'tablePrefix' => 'test——',
+            'tablePrefix' => 'test_',
         ),
 
         'errorHandler' => array(
