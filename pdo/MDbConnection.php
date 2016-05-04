@@ -91,10 +91,12 @@
             }
             parent::setActive($value);
         }
+
         /**
-         * 获取从库连接.
+         * 获取从库连接
          *
-         * @return MDbSlaveConnection
+         * @author: jichao.wang <braveontheroad@gmail.com>
+         * @return MDbConnection|mixed
          */
         private function getSlave()
         {
@@ -125,10 +127,13 @@
 
             return $this->_slave;
         }
+
         /**
-         * 是否为Read操作.
+         * 判断是否为Read操作
          *
-         * @param string $sql SQL语句
+         * @author: jichao.wang <braveontheroad@gmail.com>
+         *
+         * @param $sql
          *
          * @return bool
          */

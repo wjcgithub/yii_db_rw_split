@@ -9,9 +9,7 @@
  */
 $params['modelConfig'] = array(
     //key为数据库名称，value为Model
-//    'passport' => array('User', 'Post'),
-    'microblog' => array('…'),
-    'db_web_v4' => array('PositionType')
+    'test' => array('T1')
 );
 
 return $params;

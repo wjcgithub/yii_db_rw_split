@@ -10,31 +10,27 @@
     $params['dbConfig'] = array(
             'db_web_v4' => array(
                 'write' => array(
-                    //'class' => 'CDbConnection',
                     'class' => 'MDbConnection',
-                    'connectionString' => 'mysql:host=localhost;dbname=raiing_web_v4',
+                    'connectionString' => 'mysql:host=localhost;dbname=test',
                     'emulatePrepare' => true,
-                    //'enableParamLogging' => true,
                     'enableProfiling' => true,
                     'username' => 'demo',
-                    'password' => '123456',
+                    'password' => 'demo',
                     'charset' => 'utf8',
-                    'tablePrefix' => 'raiing_',
+                    'tablePrefix' => 'test_',
                     'schemaCachingDuration' => 3600,
                 ),
 
                 'read' => array(
                     array(
                         'class' => 'MDbSlaveConnection',
-//                        'class' => 'CDbConnection',
-                        'connectionString' => 'mysql:host=192.168.2.210;dbname=raiing_web_v4',
+                        'connectionString' => 'mysql:host=192.168.2.210;dbname=test',
                         'emulatePrepare' => true,
-                        //'enableParamLogging' => true,
                         'enableProfiling' => true,
-                        'username' => 'ssh1',
-                        'password' => 'ssh1',
+                        'username' => 'demo',
+                        'password' => 'demo',
                         'charset' => 'utf8',
-                        'tablePrefix' => 'raiing_',
+                        'tablePrefix' => 'test_',
                         'schemaCachingDuration' => 3600,
                     ),
                 ),
@@ -42,31 +38,27 @@
 
             'db' => array(
                 'write' => array(
-                    //'class' => 'CDbConnection',
                     'class' => 'MDbConnection',
-                    'connectionString' => 'mysql:host=localhost;dbname=raiing_web_v4',
+                    'connectionString' => 'mysql:host=localhost;dbname=test',
                     'emulatePrepare' => true,
-                    //'enableParamLogging' => true,
                     'enableProfiling' => true,
                     'username' => 'demo',
-                    'password' => '123456',
+                    'password' => 'demo',
                     'charset' => 'utf8',
-                    'tablePrefix' => 'raiing_',
+                    'tablePrefix' => 'test_',
                     'schemaCachingDuration' => 3600,
                 ),
 
                 'read' => array(
                     array(
                         'class' => 'MDbSlaveConnection',
-//                        'class' => 'CDbConnection',
-                        'connectionString' => 'mysql:host=192.168.2.210;dbname=raiing_web_v4',
+                        'connectionString' => 'mysql:host=192.168.2.210;dbname=test',
                         'emulatePrepare' => true,
-                        //'enableParamLogging' => true,
                         'enableProfiling' => true,
-                        'username' => 'ssh1',
-                        'password' => 'ssh1',
+                        'username' => 'demo',
+                        'password' => 'demo',
                         'charset' => 'utf8',
-                        'tablePrefix' => 'raiing_',
+                        'tablePrefix' => 'test_',
                         'schemaCachingDuration' => 3600,
                     ),
 
