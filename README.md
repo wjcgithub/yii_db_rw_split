@@ -11,4 +11,4 @@ yii1.x 实现读写分离代码
 > 复写CActiveRecord类，通过 beforeSave  beforeDelete  beforeFind  三种事件来动态的修改`dbconnection` 来实现读写分离
 
 ### 2. yii  PDO 方式操作数据库
-> 在 配置文件中的 db 组件中 createCommand 通过指定新的 db class 属性， 通过复写的 `createCommand` 来实现读写分离 
+> 在 配置文件中的 db 组件中 createCommand 通过指定新的 db class 属性， 通过复写的 `createCommand` 来实现读写分离
