@@ -2,11 +2,7 @@
 
 class testController extends CController {
 
-    /**
-     * @author jichao.wang
-     * @info 职位类型列表
-     */
-    public function actionList()
+    public function actiontest()
     {
 
         //测试活跃记录 (ar) 方式的读取
